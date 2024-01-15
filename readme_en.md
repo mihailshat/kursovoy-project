@@ -100,7 +100,7 @@ If you need to visually see how to run the program correctly, we made a video of
 ## Changing the connection from LocalHost to IP address.
 
 If you want all IP addresses connected to the same local network with you to have access to your MySQL database, you can create a user with the hostname pattern %, which means "any host".
-In order to change the connection type from LocalHost to IP address, you must first enter the following SQL queries in MySQL Workbench:
+In order to change the connection type from LocalHost to IP  address, you must first enter the following SQL queries in MySQL Workbench:
 
 ```sql
 CREATE USER 'username'@'%' IDENTIFIED BY 'yourpassword';
